@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="User" max_length="40" name="x_18132_loaner_user" type="collection"/>
+</database>
