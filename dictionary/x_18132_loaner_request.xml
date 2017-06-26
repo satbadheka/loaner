@@ -4,6 +4,7 @@
         <element choice="1" label="Depot" max_length="40" name="depot" type="choice">
             <choice/>
         </element>
+        <element attributes="current_location=true" label="Device Location" max_length="40" name="device_location" type="string"/>
         <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
             <choice/>
         </element>
