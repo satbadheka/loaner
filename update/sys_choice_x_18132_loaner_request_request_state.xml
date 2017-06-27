@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="request_state" table="x_18132_loaner_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>0</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0bffd9edbeb32004442d8c0cf9619a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:47:53</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84bffd9edbeb32004442d8c0cf9619a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:10</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reserved</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4bffd9edbeb32004442d8c0cf9619a9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:19</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deployment Prep</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08bffd9edbeb32004442d8c0cf9619ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:26</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ready for Pickup</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>4</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48bffd9edbeb32004442d8c0cf9619ad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:33</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Checked Out</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>5</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88bffd9edbeb32004442d8c0cf9619af</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:41</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>request_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Post Deployment</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>6</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88bf35dedbeb32004442d8c0cf961904</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:49</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>request_state</element>
+            <name>x_18132_loaner_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:46:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>40bffd9edbeb32004442d8c0cf9619a7</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_name>request_state</sys_name>
+            <sys_package display_value="Loaner" source="x_18132_loaner">7bef64dedbe732004442d8c0cf96197a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Loaner">7bef64dedbe732004442d8c0cf96197a</sys_scope>
+            <sys_update_name>sys_choice_x_18132_loaner_request_request_state</sys_update_name>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:48:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

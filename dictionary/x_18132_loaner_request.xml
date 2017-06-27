@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="sc_request" label="Request" max_length="40" name="x_18132_loaner_request" type="collection">
+    <element extends="sc_request" label="Request" max_length="40" name="x_18132_loaner_request" sizeclass="2" type="collection">
         <element choice="1" label="Depot" max_length="40" name="depot" type="choice">
-            <choice/>
+            <choice>
+                <element label="Chennai" sequence="1" value="1"/>
+                <element label="Bengaluru" sequence="2" value="2"/>
+                <element label="Mumbai" sequence="3" value="3"/>
+                <element label="Delhi" sequence="4" value="4"/>
+            </choice>
         </element>
         <element attributes="current_location=true" label="Device Location" max_length="40" name="device_location" type="string"/>
+        <element label="End date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
         <element choice="1" label="Item Type" max_length="40" name="item_type" type="choice">
-            <choice/>
+            <choice>
+                <element label="Mobile Phone" sequence="1" value="1"/>
+                <element label="Laptop" sequence="2" value="2"/>
+                <element label="Desktop" sequence="3" value="3"/>
+            </choice>
         </element>
+        <element label="Start date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
     </element>
 </database>

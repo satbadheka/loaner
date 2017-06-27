@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="item_type" table="x_18132_loaner_request" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile Phone</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>1</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:37:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>497db55edbeb32004442d8c0cf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:37:14</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>2</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:37:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f69db55edbeb32004442d8c0cf96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:37:34</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>item_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Desktop</label>
+            <language>en</language>
+            <name>x_18132_loaner_request</name>
+            <sequence>3</sequence>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:37:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dadb55edbeb32004442d8c0cf9619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:37:47</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>item_type</element>
+            <name>x_18132_loaner_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>satya.badheka</sys_created_by>
+            <sys_created_on>2017-06-26 14:37:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8e8d755edbeb32004442d8c0cf961972</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>item_type</sys_name>
+            <sys_package display_value="Loaner" source="x_18132_loaner">7bef64dedbe732004442d8c0cf96197a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Loaner">7bef64dedbe732004442d8c0cf96197a</sys_scope>
+            <sys_update_name>sys_choice_x_18132_loaner_request_item_type</sys_update_name>
+            <sys_updated_by>satya.badheka</sys_updated_by>
+            <sys_updated_on>2017-06-26 14:37:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

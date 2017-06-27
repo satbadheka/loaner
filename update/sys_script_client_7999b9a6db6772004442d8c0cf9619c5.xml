@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>location</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Depot based on location</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	if (g_form.getValue('location') != ''){
+		g_form.addInfoMessage(location);
+		g_form.getReference('location', getCity);
+	}
+	
+	function getCity(location){
+		var city = location.city + '';
+		g_form.addInfoMessage(city);
+		if(city == 'Bangalore'){
+			g_form.setValue('depot', 2);			
+		}
+		else if (city == 'Mumbai'){
+			g_form.setValue('depot', 3);
+		}
+		
+	}
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>satya.badheka</sys_created_by>
+        <sys_created_on>2017-06-27 08:59:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7999b9a6db6772004442d8c0cf9619c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Set Depot based on location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner" source="x_18132_loaner">7bef64dedbe732004442d8c0cf96197a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loaner">7bef64dedbe732004442d8c0cf96197a</sys_scope>
+        <sys_update_name>sys_script_client_7999b9a6db6772004442d8c0cf9619c5</sys_update_name>
+        <sys_updated_by>satya.badheka</sys_updated_by>
+        <sys_updated_on>2017-06-27 09:03:47</sys_updated_on>
+        <table>x_18132_loaner_request</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
